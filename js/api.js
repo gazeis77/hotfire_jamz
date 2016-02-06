@@ -19,7 +19,7 @@ function parse_lastfm_data() {
     $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=scoonieapu&api_key=e09f97a093db384bc98e3c0004987fe7&limit=2&format=json", function(data) {
  
         // Uncomment console.log to see all returnable data
-        console.log(data);
+        //console.log(data);
  
         // Checks for successful return before additional parsing.
         if (typeof data == "object") {

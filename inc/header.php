@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
    
   </head>
@@ -24,6 +22,12 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+
+    <a class="" href="index.php">
+      <img class="logo" src="img/hotfire_jamz.png">
+    </a> 
+
+      <div class="collapse navbar-collapse">
         <div class="listening-to">
           <p>Currently listening to: 
             <span id="recent_artist"></span> - 
@@ -32,11 +36,9 @@
             <span id="recent_album"></span>
             </a>
           </p>
-      </div>
-   <a class="text-muted" href="index.html"><img class="navbar-brand" src="img/hotfire_jamz.png"></a> 
-      <div class="collapse navbar-collapse">
+        </div>
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="index.php">Home</a></li>
           <li class="dropdown">
              <a data-toggle="dropdown" data-target="#">Services<b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -54,26 +56,4 @@
     </div>
   </div>
 
-
-
- <!--Footer-->
-<footer>
-  <div class="container">
-    <div class="panel panel-default">
-      <div class="row panel-body">
-        <div class="footer">
-          <a href="https://www.facebook.com/zeisphoto"><i class="fa fa-facebook-official fa-2x"></i></a>
-          <a href="https://www.instagram.com/zeisphoto"><i class="fa fa-instagram fa-2x"></i></a>
-          <a href="https://twitter.com/zeisphoto"><i class="fa fa-twitter fa-2x"></i></a>
-          <p>&copy; 2016 Hotfire Jamz created by George Zeis</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/api.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    
-  </body>
-</html>
+  
