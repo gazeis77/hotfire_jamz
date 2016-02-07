@@ -13,7 +13,7 @@
 
 <!--Navbar-->
 <div class="containter">    
-  <div class="navbar navbar-custom navbar-default navbar-fixed-top">
+  <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
 <!--Navbar Collapse-->
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -23,7 +23,7 @@
           <span class="icon-bar"></span>
         </button>
 
-    <a class="" href="index.php">
+    <a href="index.php">
       <img class="logo" src="img/hotfire_jamz.png">
     </a> 
 

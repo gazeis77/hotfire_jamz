@@ -1,6 +1,6 @@
 <!--Footer-->
 <footer>
-  <div class="container">
+  <div>
     <div class="panel panel-default">
       <div class="row panel-body">
         <div class="footer">
