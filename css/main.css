@@ -11,10 +11,33 @@
   color: #fff;
   float: left;
   clear: both;
-  margin-top: 10px;
-  text-decoration: none; }
+  margin-top: 10px; }
+  .listening-to a {
+    text-decoration: none;
+    color: grey; }
+    .listening-to a:hover {
+      color: #e6e6e6; }
+
+footer {
+  color: #fff; }
 
 #main-content {
   margin-top: 200px; }
+  #main-content h1 {
+    text-align: center; }
+  #main-content img {
+    width: 46%;
+    padding: 10px 5px;
+    display: inline-block; }
+  #main-content p {
+    padding: 6px; }
+    #main-content p a {
+      text-decoration: none;
+      color: grey; }
+      #main-content p a:hover {
+        color: #e6e6e6; }
+  #main-content .lead {
+    border: 1px solid black;
+    font-size: 22px; }
 
 /*# sourceMappingURL=main.css.map */

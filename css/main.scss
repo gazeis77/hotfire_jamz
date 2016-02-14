@@ -1,5 +1,38 @@
 @import '_header.scss';
+@import '_footer.scss';
+@import '_color.scss';
+
+
 
 #main-content {
 	margin-top: 200px;
+		h1{
+			text-align: center;
+		}
+		img{
+			width: 46%;
+			padding: 10px 5px;
+			display: inline-block;
+		}
+		p{
+			padding: 6px;
+
+
+
+			a{
+				text-decoration: none;
+				color: $link_color;
+				&:hover{
+					color: lighten($link_color, 40%);
+				}
+			}
+		}
+
+		.lead{
+				border: 1px solid black;
+				font-size: 22px;
+			}
 }
+
+
+
