@@ -39,17 +39,15 @@
         </div>
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="index.php">Home</a></li>
-          <li class="dropdown">
-             <a data-toggle="dropdown" data-target="#">Services<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="booth.html">The Photobooth</a></li>
-                <li><a href="events.html">Photography</a></li>
-                <li class="divider"></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-              <li><a href="photos.html">Art Gallery</a></li>
-          </li>
-           <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+               <a data-toggle="dropdown" data-target="#">Features<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Worth Checking Out</a></li>
+                  <li><a href="#">Theory</a></li>
+                </ul>
+              <li><a href="#">Quick Reviews</a></li>
+              <li><a href="#">About</a></li>
+            </li>
          </ul>
        </div>
       </div>
