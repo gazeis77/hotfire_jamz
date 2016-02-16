@@ -1,7 +1,7 @@
 <?php include "inc/header.php" ?>
-    <div class="container">
+    <div class="container header-bump">
       <div id="adminHeader">
-        <h2>Widget News Admin</h2>
+        <h2>Hotfire Jams Admin</h2>
         <p>You are logged in as <b><?php echo htmlspecialchars( $_SESSION['username']) ?></b>. <a href="admin.php?action=logout"?>Log out</a></p>
       </div>
  

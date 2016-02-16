@@ -29,15 +29,18 @@ footer {
     width: 46%;
     padding: 10px 5px;
     display: inline-block; }
-  #main-content p {
-    padding: 6px; }
-    #main-content p a {
-      text-decoration: none;
-      color: grey; }
-      #main-content p a:hover {
-        color: #e6e6e6; }
+  #main-content a {
+    text-decoration: none;
+    color: grey; }
+    #main-content a:hover {
+      color: #e6e6e6; }
+  #main-content .pubDate {
+    font-size: 12px; }
   #main-content .lead {
     border: 1px solid black;
     font-size: 22px; }
+
+.header-bump {
+  margin-top: 200px; }
 
 /*# sourceMappingURL=main.css.map */

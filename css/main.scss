@@ -14,24 +14,27 @@
 			padding: 10px 5px;
 			display: inline-block;
 		}
-		p{
-			padding: 6px;
 
-
-
-			a{
-				text-decoration: none;
-				color: $link_color;
-				&:hover{
-					color: lighten($link_color, 40%);
-				}
+		a{
+			text-decoration: none;
+			color: $link_color;
+			&:hover{
+				color: lighten($link_color, 40%);
 			}
+		}
+		
+		.pubDate{
+			font-size: 12px;
 		}
 
 		.lead{
 				border: 1px solid black;
 				font-size: 22px;
 			}
+}
+
+.header-bump {
+	margin-top: 200px;
 }
 
 

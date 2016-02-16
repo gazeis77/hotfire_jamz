@@ -6,7 +6,7 @@
 <?php if ( isset( $results['errorMessage'] ) ) { ?>
         <div class="errorMessage"><?php echo $results['errorMessage'] ?></div>
 <?php } ?>
- 
+  <div class="container header-bump">
         <ul>
  
           <li>
@@ -26,5 +26,6 @@
         </div>
  
       </form>
- 
+  </div>
+
 <?php include "inc/footer.php" ?>
