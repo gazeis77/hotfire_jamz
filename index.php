@@ -12,6 +12,8 @@
 
 
 	require("config.php");
+	require("classes/article.php");
+
 	$action = isset($_GET['action']) ?$_GET['action'] : "";
 
 	switch ($action) {
@@ -57,3 +59,7 @@
 			}
 		?>
 
+
+	</div>
+
+</div>

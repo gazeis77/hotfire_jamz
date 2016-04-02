@@ -15,36 +15,36 @@ switch ($action) {
 }
 ?>
 <div class="container">
-<?php
-function archive() {
-	$results = array();
-	$data = Article::getList();
-	$results['articles'] = $data['results'];
-	$results['totalRows'] = $data['totalRows'];
-	$results['pageTitle'] = "Article Archive | Widget News";
-	require( TEMPLATE_PATH . "/archive.php");
-}
-
-
-function viewArticle(){
-	if(!isset($_GET["articleId"]) || !$_GET[articleId]) {
-		homepage();
-		return;
+	<?php
+	function archive() {
+		$results = array();
+		$data = Article::getList();
+		$results['articles'] = $data['results'];
+		$results['totalRows'] = $data['totalRows'];
+		$results['pageTitle'] = "Article Archive | Widget News";
+		require( TEMPLATE_PATH . "/archive.php");
 	}
 
-	$results = array();
-  	$results['article'] = Article::getById( (int)$_GET["articleId"] );
-  	$results['pageTitle'] = $results['article']->title;
- 	 require( TEMPLATE_PATH . "/viewArticle.php" );	
-}
 
-function homepage() {
-  $results = array();
-  $data = Article::getList( HOMEPAGE_NUM_ARTICLES );
-  $results['articles'] = $data['results'];
-  $results['totalRows'] = $data['totalRows'];
-  $results['pageTitle'] = "Widget News";
-  require( TEMPLATE_PATH . "/homepage.php" );
-}
-?>
+	function viewArticle(){
+		if(!isset($_GET["articleId"]) || !$_GET[articleId]) {
+			homepage();
+			return;
+		}
+
+		$results = array();
+	  	$results['article'] = Article::getById( (int)$_GET["articleId"] );
+	  	$results['pageTitle'] = $results['article']->title;
+	 	 require( TEMPLATE_PATH . "/viewArticle.php" );	
+	}
+
+	function homepage() {
+	  $results = array();
+	  $data = Article::getList( HOMEPAGE_NUM_ARTICLES );
+	  $results['articles'] = $data['results'];
+	  $results['totalRows'] = $data['totalRows'];
+	  $results['pageTitle'] = "Widget News";
+	  require( TEMPLATE_PATH . "/homepage.php" );
+	}
+	?>
 </div>

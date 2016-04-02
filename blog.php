@@ -53,3 +53,5 @@ switch ($action) {
 		  require("templates/homepage.php" );
 		}
 	?>
+	
+</div>
